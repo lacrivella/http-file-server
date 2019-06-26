@@ -9,6 +9,6 @@ When on localhost:7890/index.html the server will go into the public directory(f
 -- 1. style index.html with basic html --
 1. create a function that uses fs.readFile to read the file?
 -- 1. createServer? --
-1. test if it goes to the correct server
+-- 1. test if it goes to the correct server --
 1. test if it will read data on correct route
 1. test if page will error out going to 404
