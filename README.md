@@ -6,7 +6,7 @@ When on localhost:7890/index.html the server will go into the public directory(f
 ## STEPS
 -- 1. create public directory/folder --
 -- 1. within folder create index.html --
-1. style index.html with basic html
+-- 1. style index.html with basic html --
 1. create a function that uses fs.readFile to read the file?
 1. createServer?
 1. test if it goes to the correct server
