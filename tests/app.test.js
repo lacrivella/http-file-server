@@ -18,4 +18,12 @@ describe('http routes', () => {
       done();
     });
   });
+
+  it('returns 404 with wrong pathname', () => {
+    return request(app)
+      .get('/')
+      .then(res => {
+        expect(res.text).toEqual(expect.stringContaining('file not found'));
+      });
+  });
 });
