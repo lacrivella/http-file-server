@@ -21,7 +21,7 @@ describe('http routes', () => {
 
   it('returns 404 with wrong pathname', () => {
     return request(app)
-      .get('/')
+      .get('/nope')
       .then(res => {
         expect(res.text).toEqual(expect.stringContaining('file not found'));
       });
